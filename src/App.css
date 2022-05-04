@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica Neue';
 }
 
 a:hover{
@@ -48,14 +49,11 @@ a:hover{
     background-color: #001529;
     display: flex;
     padding: 20px;
-    align-items: center;
+    align-content: center;
     width: 100%;
 }
-.logo{
-    margin:0 0 0 15px;
-}
-.logo a{
-   color: white;
+.logo-container a{
+   color: white !important;
 }
 .menu-control-container{
     display: none !important;
@@ -66,7 +64,6 @@ a:hover{
     background-color: var(--bgSecondary) !important;
     border: none !important;
 }
-
 .loader{
     height: 81vh;
     display: flex;
@@ -171,6 +168,7 @@ a:hover{
     font-size: 1.4rem;
     margin-top: 20px;
     color: var(--pink);
+    text-align: center !important;
 }
 
 .coin-details-heading{
@@ -288,7 +286,7 @@ a:hover{
 }
 
 .select-news{
-    width: 180px;
+    width: 32.3%;
 }
 .news-card{
     min-height: 300px !important;
@@ -298,7 +296,7 @@ a:hover{
     justify-content: space-between !important;
 }
 .news-title{
-width: 70%;
+    width: 70%;
 }
 
 .news-image-container .img{
@@ -322,6 +320,7 @@ width: 70%;
     justify-content: space-between;
     gap: 50px;
     color: #0071bd;
+    margin-top: 20px;
 }
 .chart-title{
     color: #0071bd !important;
@@ -353,7 +352,24 @@ width: 70%;
 }
 .search-crypto{
     margin: 20px auto 30px auto;
-    width: 250px;
+    width: 100%;
+}
+.ant-input{
+    border-radius: 10px !important;
+    border: solid 1px white !important;
+}
+.ant-select .ant-select-selector {
+    border-radius:10px !important;
+    border: none !important;
+}
+.ant-col{
+    border-radius: 10px !important;
+}
+.ant-row{
+    border-radius: 10px !important;
+}
+.ant-card{
+    border-radius: 20px !important;
 }
 .crypto-card-container{
     min-height: 65vh !important;
@@ -365,7 +381,7 @@ width: 70%;
     width:35px;
 }
 .select-timeperiod{
-    width: 200px !important;
+    width: 20% !important;
     margin-top: 20px !important;
 }
 
