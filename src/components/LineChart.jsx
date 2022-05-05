@@ -38,7 +38,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
   }
 
   const data = {
-    labels: coinTimestamp,
+    labels: coinTimestamp.sort(),
     datasets: [
       {
         label: "Price In USD",
