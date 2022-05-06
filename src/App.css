@@ -116,6 +116,11 @@ a:hover{
   
     .menu-control-container{
         display: block !important;
+        background-color: transparent !important;
+    }
+
+    .ant-btn > .anticon{
+        color: white !important;
     }
 
     .ant-menu{
@@ -286,7 +291,7 @@ a:hover{
 }
 
 .select-news{
-    width: 32.3%;
+    width: 100%;
 }
 .news-card{
     min-height: 300px !important;
